@@ -1,5 +1,5 @@
 {
-  "name": "autodesk/forge-client",
+  "name": "peteoxenham/forge-client",
   "description": "",
   "keywords": [
     "swagger",
@@ -15,12 +15,18 @@
       "homepage": "https://github.com/Autodesk-Forge"
     }
   ],
+  "repositories": [
+    {
+      "url": "https://github.com/peteoxenham/autodesk-core-php-client.git",
+      "type": "git"
+    }
+  ],
   "require": {
     "php": ">=5.4",
     "ext-curl": "*",
     "ext-json": "*",
     "ext-mbstring": "*",
-    "autodesk/core": "^1.0"
+    "peteoxenham/autodesk-core-php-client": "^1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.8",
